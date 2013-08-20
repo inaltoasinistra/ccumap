@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+	
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>CriticalCity Upload | giocatori</title>
+  	<link href="/stylesheets/reset.css?1374501871" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/960.css?1374501871" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/main.css?1374501871" media="screen" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.5&sensor=true"></script>
+
+	<script src="/javascripts/all.js?1374501871" type="text/javascript"></script>
+	<!--[if lte IE 7]><link href="/stylesheets/ie.css?1374501871" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+	<meta property="og:type" content="article"/><meta property="og:title" content="CriticalCity Upload"/><meta property="og:url" content="http://criticalcity.org"/><meta property="og:description" content="Il gioco che ti fa fare cose che non hai mai fatto!"/><meta property="og:site_name" content="CriticalCity Upload"/><meta property="og:image" content="http://www.criticalcity.org/images/icon-facebook.gif"/><meta name="description" content="Il gioco che ti fa fare cose che non hai mai fatto!" />
+	<meta property="fb:page_id" content="315814458503" />
+	
+	
+
+
+
+</head>
+
+<body id="users_index">
+<div id="wrapper">
+	
+<div id="header">
+	<div class="container_12">
+		<div class="grid_9">
+			<a href="/home" id="logo"><img alt="Logo_header" src="/images/logo_header.png?1374501870" /></a>
+			<div id="banner"></div>
+			<br class="clear">
+		</div>
+		
+		<div class="grid_3">
+
+			<div id="user_nav">
+				
+				<div id="login_box">
+			     	<div class="tri-green"><img alt="Mini_tri" class="right" src="/images/mini_tri.png?1374501870" /></div>
+			 		<span class="logged_out_text small">Non sei ancora registrato? <a href="/signup">Registrati qui</a></span>
+			      <span class="logged_out_text small">Sei già registrato? <a href="/login">Entra</a></span>          
+			    	<br class="clear">
+			    </div>
+				
+				
+			</div>
+			
+			<div id="notification_panel">
+   
+   
+
+   <a href="/help" id="help_icon">
+      <span id="help_label">help</span>
+   </a>
+
+</div>
+
+   
+
+		</div>
+
+		<div class="grid_12" id="primary_navigation">
+
+			<form action="http://criticalcity.org/search" id="cse-search-box">
+			  <div>
+			    <input type="hidden" name="cx" value="001621681078880853769:bs9kq8zsatc" />
+			    <input type="hidden" name="cof" value="FORID:9" />
+			    <input type="hidden" name="ie" value="UTF-8" />
+				<input id="q" name="q" placeholder="Cerca nel sito..." size="30" type="text" />
+				<input type="image" src="/images/freccia_search.gif" name="sa" id="search_button" />
+			  </div>
+			</form>
+		   
+		   
+			<ul id="nav">
+			  
+			    <li><a href="/home" class="home_nav ">Home</a></li>
+			  
+			    <li><a href="/missions" class="missions_nav ">Istruzioni</a></li>
+			  
+			    <li><a href="/posts" class="posts_nav ">Esecuzioni</a></li>
+			  
+			    <li><a href="/players" class="players_nav  selected">Giocatori</a></li>
+			  
+			    <li><a href="/nodes" class="nodes_nav ">Nodi</a></li>
+			  
+			    <li><a href="/badges" class="badges_nav ">Badge</a></li>
+			  
+			    <li><a href="/dashboard" class="dashboard_nav ">Dashboard</a></li>
+			  
+			</ul>
+			
+
+			
+		</div>
+
+
+	</div>
+	<br class="clear">
+</div>
+
+
+<div class="container_12">
+  <div id="content">
+    
+
+		
+		
+		<div id="tutorial_modal_loader"></div>
+		
+		
+		
+		
+    
+
+<div class="grid_3">
+	
+  <div class="sort">
+	<h2 class="bordered">Cerca <span>per nome o per città:</span></h2>
+	<form action="/users" method="get">
+
+		<input class="search" id="search" name="search" placeholder="ad esempio: 'westk', 'Roma', ..." type="text" />
+		<input id="sort" name="sort" type="hidden" value="score" />
+
+	</form>
+  </div>
+
+	<div class="sort">
+    <h2 class="bordered">Ordina <span>per</span></h2> 
+    <ul>
+	  
+      <li><a href="/users?sort=score" class="current">punteggio</a></li>
+    
+      <li><a href="/users?sort=votes" class="">voti</a></li>
+    
+      <li><a href="/users?sort=date" class="">data iscrizione</a></li>
+    
+		</ul>
+  </div>
+
+  <div class="second_sort">
+		<a href="/locations/?show=users" class="map_link" style="border-bottom:0px">
+			<img alt="Banner_map_users" src="/images/banner_map_users.jpg?1374501870" style="margin-top: 10px" />
+		</a>
+  </div>
+  
+</div>
+
+<div class="grid_9">
+	<h2 class="bordered black">giocatori <span> i più sexy del momento</span></h2>
+	
+	<div class="lined_bg_box featured_items featured_users">
+		<a class="featured_item featured_user" href="/users/6141">
+	<img alt="Me" class="bg_image" src="http://s3.amazonaws.com/criticalcity/avatars/6141/featured/me.jpg" />
+	
+	<div class="info bg">
+		<h1>223 <span>Punti</span></h1>
+		<h2>Wings</h2>
+		<p>Livello 4</p>
+	</div>
+</a><a class="featured_item featured_user" href="/users/12627">
+	<img alt="Vertigonose" class="bg_image" src="http://s3.amazonaws.com/criticalcity/avatars/12627/featured/VertigoNose.jpg" />
+	
+	<div class="info bg">
+		<h1>262 <span>Punti</span></h1>
+		<h2>MrCæsar</h2>
+		<p>Livello 4</p>
+	</div>
+</a><a class="featured_item featured_user" href="/users/8228">
+	<img alt="Sp-studiook" class="bg_image" src="http://s3.amazonaws.com/criticalcity/avatars/8228/featured/sp-studiook.jpg" />
+	
+	<div class="info bg">
+		<h1>174 <span>Punti</span></h1>
+		<h2>La Fra</h2>
+		<p>Livello 4</p>
+	</div>
+</a>
+		<br class="clear">
+	</div>
+
+	<h2 class="bordered gray">12831 giocatori  </h2>
+		<ul class="users_list">
+
+
+<li class="user">
+	<a href="/users/14123">
+   <img alt="Stringio" src="http://s3.amazonaws.com/criticalcity/avatars/14123/big_thumb/stringio.txt" />
+   <div class="p_info">
+   	<strong >Stewe</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da 29 giorni |
+			72 Voti |
+			10 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	402
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/13896">
+   <img alt="H" src="http://s3.amazonaws.com/criticalcity/avatars/13896/big_thumb/h.jpg" />
+   <div class="p_info">
+   	<strong >Lena</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da 5 mesi |
+			36 Voti |
+			12 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	336
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/13373">
+   <img alt="Img_5025" src="http://s3.amazonaws.com/criticalcity/avatars/13373/big_thumb/IMG_5025.JPG" />
+   <div class="p_info">
+   	<strong >Sclef</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da 8 mesi |
+			35 Voti |
+			11 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	335
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/7297">
+   <img alt="7203_4440471428743_1942051361_n" src="http://s3.amazonaws.com/criticalcity/avatars/7297/big_thumb/7203_4440471428743_1942051361_n.jpg" />
+   <div class="p_info">
+   	<strong >Matteo Minutella (PoLPiX)</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da oltre un anno |
+			17 Voti |
+			11 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	302
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/13164">
+   <img alt="Befunky_null_1" src="http://s3.amazonaws.com/criticalcity/avatars/13164/big_thumb/BeFunky_null_1.jpg.jpg" />
+   <div class="p_info">
+   	<strong >Mik</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da 9 mesi |
+			115 Voti |
+			7 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	295
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/5185">
+   <img alt="Picture_4" src="http://s3.amazonaws.com/criticalcity/avatars/5185/big_thumb/Picture_4.jpg" />
+   <div class="p_info">
+   	<strong class="member">Dextroy</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da circa 2 anni |
+			70 Voti |
+			12 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	295
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/14036">
+   <img alt="2013-08-04_10" src="http://s3.amazonaws.com/criticalcity/avatars/14036/big_thumb/2013-08-04_10.26.42.jpg" />
+   <div class="p_info">
+   	<strong >Comacus</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da circa un mese |
+			88 Voti |
+			8 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	288
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/13723">
+   <img alt="Aaaa" src="http://s3.amazonaws.com/criticalcity/avatars/13723/big_thumb/aaaa.jpeg" />
+   <div class="p_info">
+   	<strong >Termo</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da 6 mesi |
+			176 Voti |
+			7 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	286
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/12016">
+   <img alt="Img_1835" src="http://s3.amazonaws.com/criticalcity/avatars/12016/big_thumb/IMG_1835.JPG" />
+   <div class="p_info">
+   	<strong >Alice</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da circa un anno |
+			145 Voti |
+			7 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	280
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+
+<li class="user">
+	<a href="/users/6033">
+   <img alt="Img_0815" src="http://s3.amazonaws.com/criticalcity/avatars/6033/big_thumb/IMG_0815.JPG" />
+   <div class="p_info">
+   	<strong >Deboroh</strong><br>
+		<span class="minor_info">
+			Livello 4<br>
+			Giocatore da circa 2 anni |
+			85 Voti |
+			7 Esecuzioni |
+			
+			
+		</span>
+	</div>
+	<div class="p_score">
+  	265
+		<span>Punti</span>
+	</div>
+	<br class="clear">
+	</a>
+</li>
+
+</ul>
+
+	
+	<div class="pagination"><a href="/users?page=1" class="prev_page" rel="prev start">&laquo; Previous</a> <a href="/users?page=1" rel="prev start">1</a> <span class="current">2</span> <a href="/users?page=3" rel="next">3</a> <a href="/users?page=4">4</a> <a href="/users?page=5">5</a> <a href="/users?page=6">6</a> <a href="/users?page=7">7</a> <a href="/users?page=8">8</a> <a href="/users?page=9">9</a> <span class="gap">&hellip;</span> <a href="/users?page=1283">1283</a> <a href="/users?page=1284">1284</a> <a href="/users?page=3" class="next_page" rel="next">Next &raquo;</a></div>
+	
+</div>
+
+  </div>
+	<br class="clear">
+</div>
+
+<div id="push"></div>
+
+</div>
+  
+<!-- <div id="overlay"><div class="contentWrap"></div></div>
+<div id="tt"></div> 
+<div id="helptip"></div>  -->
+
+<div id="footer">
+	<div class="container_12">
+	<div class="grid_6">
+		<a href="http://criticalcity.org/" class="footer_logo"><img alt="Small_logo_season" src="/images/small_logo_season.png?1374501870" /></a>
+		è un progetto <a href="http://www.focuscoop.it/" target="_blank" class="red">Focus</a>
+	</div>
+	<div class="grid_6" style="text-align:right">
+		<a href="#" class="red">back to top</a>
+	</div>
+	
+	<div class="grid_12 footer_body">
+
+		<div class="footer_section">
+			<h2>Sezioni</h2>
+			<ul>
+				
+			  	<li><a href="/home">Home </a></li>    
+			  
+			  	<li><a href="/missions">Istruzioni </a></li>    
+			  
+			  	<li><a href="/posts">Esecuzioni </a></li>    
+			  
+			  	<li><a href="/players">Giocatori </a></li>    
+			  
+			  	<li><a href="/nodes">Nodi </a></li>    
+			  
+			  	<li><a href="/badges">Badge </a></li>    
+			  
+			  	<li><a href="/dashboard">Dashboard </a></li>    
+			  
+			</ul>
+		</div>
+		
+		<div class="footer_section">
+			<h2>About</h2>
+			<ul>
+				<li><a href="/pages/dicono">Dicono di noi</a></li>
+				<li><a href="/pages/partners">Partner</a></li>
+				<li><a href="/pages/credits">Credits</a></li>
+				<li><a href="/pages/comestainpiedi">Come sta in piedi Upload</a></li>
+				<li>&nbsp;</li>
+				<li><a href="/aiuta_ccu">Vuoi aiutare Upload?</a></li>
+				<!-- decommentare offerta libera in sidebar!  -->
+			</ul>
+		</div>
+
+		<div class="footer_section">
+			<h2>Partners</h2>
+			<ul>
+				<li><a href="http://www.fondazionecariplo.it/" target="_blank">Fondazione Cariplo</a></li>
+				<li><a href="http://www.cheoperesearch.com/ita/" target="_blank">Cheope Research</a></li>
+				<li><a href="http://blog.bonsai.tv/" target="_blank">BonsaiTv</a></li>
+				<li><a href="http://www.progettokublai.net/" target="_blank">Progetto Kublai</a></li>
+				<li><a href="http://situate.cc" target="_blank">Situate</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer_section">
+			<h2>Seguici Online</h2>
+			<ul>
+				<li><a href="http://www.facebook.com/pages/CriticalCity/315814458503">Facebook</a></li>
+				<li><a href="http://twitter.com/criticalcity">Twitter </a></li>
+				<!-- <li><a href="#">RSS</a></li> -->
+				<!-- <li><a href="#">YouTube</a></li> -->
+				<!-- <li style="margin-top:20px;"><a href="#">Iscriviti alla newsletter</a></li> -->
+				<li><a href="mailto:staff@criticalcity.org">Contattaci</a></li>
+			</ul>
+		</div>
+
+		<div class="footer_section final">
+			<h2>Privacy</h2>
+			<ul>
+				<li><a href="/pages/terms">Termini e Privacy</a></li>
+				<li><a href="/pages/copyright">Copyright </a></li>
+			</ul>
+			
+			<p class="creative_commons">
+			<a href="http://creativecommons.org/licenses/by-nc-sa/2.5/it/"><img src="/images/creative-commons.png"></a>
+			Eccetto dove diversamente indicato tutte<br>
+			le opere del sito sono rilasciate con licenza<br>
+			<br>
+			<a href="http://creativecommons.org/licenses/by-nc-sa/2.5/it/">http://creativecommons.org/licenses/by-nc-sa/2.5/it/</a></p>
+		</div>
+		
+		
+
+	</div>
+</div>
+<br class="clear">
+
+</div>
+
+<div id="modal"><a href="#" class="close_modal"></a><div class="inner_modal"></div></div>
+
+
+
+
+
+	
+		<script type="text/javascript">
+		var uservoiceOptions = {
+		  /* required */
+		  key: 'criticalcity',
+		  host: 'criticalcity.uservoice.com', 
+		  forum: '85785',
+		  showTab: true,  
+		  /* optional */
+		  alignment: 'left',
+		  background_color:'#de007b', 
+		  text_color: 'white',
+		  hover_color: '#73d305',
+		  lang: 'it'
+		};
+
+		function _loadUserVoice() {
+		  var s = document.createElement('script');
+		  s.setAttribute('type', 'text/javascript');
+		  s.setAttribute('src', ("https:" == document.location.protocol ? "https://" : "http://") + "cdn.uservoice.com/javascripts/widgets/tab.js");
+		  document.getElementsByTagName('head')[0].appendChild(s);
+		}
+		_loadSuper = window.onload;
+		window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function() { _loadSuper(); _loadUserVoice(); };
+		</script>
+	
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	      var _gaq = _gaq || [];
+	      _gaq.push(['_setAccount', 'UA-4206330-1']);
+	      _gaq.push(['_setDomainName', 'none']);
+		  _gaq.push(['_setAllowLinker', true]);
+	      _gaq.push(['_trackPageview']);
+
+	      _gaq.push(['b._setAccount', 'UA-20050989-1']);
+	      _gaq.push(['b._trackPageview']);
+		  _gaq.push(['b._setAllowLinker', true]);
+	      _gaq.push(['b._trackPageview']);      
+      
+	      (function() {
+	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	      })();
+
+	    </script>
+
+
+
+
+
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","3ee4670dfe","309649","JVYITUEMW1wES0lDEANLFRZaDVNVGQ==",11,140,new Date().getTime(),"","","","",""]);</script></body>
+</html>
