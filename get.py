@@ -8,7 +8,7 @@ import re
 import urllib2
 
 def main():
-    get_users()
+    print get_users()
 
 
 '''
@@ -19,18 +19,30 @@ def main():
                 <h1>755 <span>Punti</span></h1>
 '''
 
-re_users = re.compile('/users/(\d+).*?<h1>(\d+)\s*\<span>Punti',re.MULTILINE|re.DOTALL)
+re_users = re.compile('/users/(\d+).*?(\d+)[\s\n]*\<span>Punti',re.MULTILINE|re.DOTALL)
 # re.findall(re_users,s)
 
 def get_users():
     
+    stop = False
     page = 1
-    users = []
+    users = set()
 
     while True:
-        u = get_and_parse(USERS_URL % page, lambda x: re.findall(re_users, x))
-        print u
-        break
+        print page
+        for u,p in get_and_parse(USERS_URL % page, lambda x: re.findall(re_users, x)):
+            u = int(u)
+            p = int(p)
+            if p:
+                users.add(u)
+            else:
+                stop = True
+
+        if stop:
+            break
+        page += 1
+
+    return users
 
 opener = urllib2.build_opener()
 opener.addheaders = [('User-agent', 'Mozilla/5.0')]
